@@ -1,0 +1,50 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="200" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#0A66C2">
+    Language Distribution
+  </text>
+
+  <!-- Pie Chart -->
+  <!-- Python: 55% (198 degrees) - Blue -->
+  <path d="M 200 200 L 200 50 A 150 150 0 0 1 329.1 80.9 Z" fill="#3776ab" stroke="white" stroke-width="2"/>
+
+  <!-- JavaScript: 20% (72 degrees) - Yellow -->
+  <path d="M 200 200 L 329.1 80.9 A 150 150 0 0 1 345.5 339.3 Z" fill="#f1e05a" stroke="white" stroke-width="2"/>
+
+  <!-- HTML/CSS: 18% (64.8 degrees) - Orange/Red -->
+  <path d="M 200 200 L 345.5 339.3 A 150 150 0 0 1 69.1 327.5 Z" fill="#e34c26" stroke="white" stroke-width="2"/>
+
+  <!-- SQL: 5% (18 degrees) - Green -->
+  <path d="M 200 200 L 69.1 327.5 A 150 150 0 0 1 47.6 309.4 Z" fill="#336791" stroke="white" stroke-width="2"/>
+
+  <!-- Jupyter/Other: 2% (7.2 degrees) - Purple -->
+  <path d="M 200 200 L 47.6 309.4 A 150 150 0 0 1 200 50 Z" fill="#9e4db3" stroke="white" stroke-width="2"/>
+
+  <!-- Legend -->
+  <g id="legend">
+    <!-- Python -->
+    <rect x="20" y="380" width="16" height="16" fill="#3776ab" stroke="white" stroke-width="1"/>
+    <text x="45" y="393" font-size="13" fill="#333">Python: 55%</text>
+
+    <!-- JavaScript -->
+    <rect x="20" y="405" width="16" height="16" fill="#f1e05a" stroke="white" stroke-width="1"/>
+    <text x="45" y="418" font-size="13" fill="#333">JavaScript: 20%</text>
+
+    <!-- HTML/CSS -->
+    <rect x="200" y="380" width="16" height="16" fill="#e34c26" stroke="white" stroke-width="1"/>
+    <text x="225" y="393" font-size="13" fill="#333">HTML/CSS: 18%</text>
+
+    <!-- SQL -->
+    <rect x="200" y="405" width="16" height="16" fill="#336791" stroke="white" stroke-width="1"/>
+    <text x="225" y="418" font-size="13" fill="#333">SQL: 5%</text>
+
+    <!-- Jupyter/Other -->
+    <rect x="20" y="430" width="16" height="16" fill="#9e4db3" stroke="white" stroke-width="1"/>
+    <text x="45" y="443" font-size="13" fill="#333">Jupyter/Other: 2%</text>
+  </g>
+
+  <!-- Stats -->
+  <text x="200" y="475" font-size="11" text-anchor="middle" fill="#666">
+    Based on primary language usage across 8 repositories
+  </text>
+</svg>
